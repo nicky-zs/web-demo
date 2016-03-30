@@ -1,0 +1,11 @@
+*.swp
+*~
+*.class
+*.jar
+.classpath
+.project
+.settings/
+target/
+aves-web.iml
+.idea/
+/target/

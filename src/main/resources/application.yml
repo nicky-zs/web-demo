@@ -1,0 +1,21 @@
+# Common properties #
+spring:
+  profiles:
+    active: dev
+server:
+  contextPath: /
+
+---
+# Development properties #
+spring:
+  profiles: dev
+
+---
+# Testing properties #
+spring:
+  profile: test
+
+---
+# Production properties #
+spring:
+  profiles: prod
